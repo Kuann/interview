@@ -27,6 +27,6 @@ public class DecToHex {
 	
 	@Test
 	public void t() {
-		System.out.println(toHex(1));
+		System.out.println(toHex(16*16-1));
 	}
 }

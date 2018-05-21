@@ -12,6 +12,7 @@ public class UsingDeque {
 		Deque<String> dq = new LinkedList<>();
 		dq.addLast("a");
 		dq.addFirst("b");
-		
+		dq.getFirst();
+		dq.getLast();
 	}
 }

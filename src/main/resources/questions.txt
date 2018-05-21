@@ -1,0 +1,47 @@
+	
+No Offer
+Neutral Experience
+Average Interview
+Application
+
+I applied online. The process took a week. I interviewed at Garena Online (Singapore (Singapore)) in July 2015.
+
+Interview
+
+Applied through a recruitment firm. Called up to attend the interview less than 3 days after submitting the application. Interview was held at Garena Online (Singapore). When visiting their office, it is required to do a registration at their front desk. The counter staff will pass you a tablet and ask you to do the registration through the tablet. You are required to fill in your name, the host, the… 
+Show More
+
+Interview Questions
+
+1 hour of technical test (test consists of 2 parts: MCQ (24 questions of 4-choice, correct answers could be multiple), 
+Algorithm (write a program on paper (can be written in C/C++/C#/Java)). 
+Topics covered in MCQ: various sorting algorithms (e.g. Heap Sort, Insertion Sort, Merge Sort, Selection Sort) (mainly on the time complexity), 
+TCP/IP fundamentals (structure of headers / properties of connection and connectionless protocols, hand shake, closure of connection), 
+database (shared lock/exclusive lock, SQL statement), system stability calculation, 
+computer science (page file basic (e.g. global to system or private to individual processes, 
+CPU scheduling (What is the minimum unit for scheduling?, Little/Big Endian Byte Order), IPC mechanism (message queue, pipeline, semaphore), 
+programming (mainly on interpreting the memory allocation for pointers/malloc()/array/string assignment). 
+
+Question for Algorithm test: 
+Without using standard library function, write a program that covert decimal to hexadecimal, 
+check if the hexadecimal number is the same in forward order and reverse order (e.g. 0x3C3, 0x4B4 are the same in forward order and reverse order). 
+HR questions: Reason for leaving? What do you think is required to be a great software engineer?  
+
+topic covered in the MCQ:
+Memory allocation.pointers,heap/stack(c/C++ proficiency)
+
+various sorting algorithms (e.g. Heap Sort, Insertion Sort, Merge Sort, Selection Sort) (mainly on the time complexity),
+
+preorder.postorder,inorder traversals
+
+DFS path.
+
+TCP/IP fundamentals (structure of headers / properties of connection and connectionless protocols, hand shake, closure of connection)
+
+database (shared lock/exclusive lock, isolation,dirty/non-repeatable reads),
+
+system stability calculation,
+
+page file basic (e.g. global to system or private to individual processes, CPU scheduling (What is the minimum unit for scheduling?, Little/Big Endian… 
+
+What is the difference between TCP, and UDP; between Process, and Thread. What is Virtual Memory, how does it work. Transactions in database. Indexing in DBMS  
