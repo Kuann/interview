@@ -20,8 +20,11 @@ public class ValidateBST {
 		return help(node.left, lowerBound, node) && help(node.right, node, upperBound);
 	}
 	
+	public boolean isValidBST_recursive(TreeNode root) {
+		return help(root, null, null);
+	}
+	
 	public boolean isValidBST(TreeNode root) {
-		//return help(root, null, null);
 		TreeNode c = root;
 		TreeNode prev = null;
 		Stack<TreeNode> stack = new Stack<>();
