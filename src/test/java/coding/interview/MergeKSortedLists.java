@@ -1,4 +1,8 @@
 package coding.interview;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -12,32 +16,29 @@ class MergeKSortedLists {
         ListNode dummyHead = new ListNode(0);
         ListNode c = dummyHead;
         
-        while (isNotDone(lists)) {
-        	int minIndex = getMinIndex(lists);
-        	c.next = lists[minIndex];
-        	c = c.next;
-        	lists[minIndex] = lists[minIndex].next;
+        Comparator<ListNode> comparator = new Comparator<ListNode>() {
+			@Override
+			public int compare(ListNode o1, ListNode o2) {
+				return o1.val - o2.val;
+			}
+		};
+        
+        PriorityQueue<ListNode> q = new PriorityQueue<>(comparator);
+        
+        for (ListNode l: lists) {
+        	if (l != null) {
+        		q.add(l);
+        	}
         }
+        
+        
+        while (!q.isEmpty()) {
+        	ListNode top = q.poll();
+        	
+        	
+        }
+        
         
         return dummyHead.next;
     }
-
-	private int getMinIndex(ListNode[] lists) {
-		Integer minIndex = null;
-		for (int i = 0; i < lists.length; ++i) {
-			if (lists[i] != null && (minIndex == null || lists[i].val < lists[minIndex].val)) {
-				minIndex = i;
-			}
-		}
-		return minIndex;
-	}
-
-	private boolean isNotDone(ListNode[] lists) {
-		for (ListNode l: lists) {
-			if (l != null) {
-				return true;
-			}
-		}
-		return false;
-	}
 }
