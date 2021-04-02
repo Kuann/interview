@@ -20,9 +20,87 @@ public class QuickSort<T> implements Sorter<Integer> {
 
 	@Override
 	public void sort(Integer[] arr) {
-		qsortUsingStack(arr);
+		qsort(arr, 0, arr.length - 1);
+	}
+	
+	private void qsort(Integer[] a, int from, int to) {
+		int i = from;
+		int j = to;
+		int p = a[(from + to) / 2];
+		
+		while (i <= j) {
+			while (a[i] < p) {
+				++i;
+			}
+			
+			while (a[j] > p) {
+				--j;
+			}
+			
+			if (i <= j) {
+				int tmp = a[i];
+				a[i] = a[j];
+				a[j] = tmp;
+				++i;
+				--j;
+			}
+		}
+		
+		if (j > from) {
+			qsort(a, from, j);
+		}
+		
+		if (i < to) {
+			qsort(a, i, to);
+		}
+		
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	private void qsortUsingStack(Integer[] arr) {
 		Stack<Pair> stack = new Stack<>();
 		stack.push(Pair.init(0, arr.length - 1));

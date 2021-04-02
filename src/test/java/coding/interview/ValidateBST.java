@@ -25,26 +25,22 @@ public class ValidateBST {
 	}
 	
 	public boolean isValidBST(TreeNode root) {
-		TreeNode c = root;
-		TreeNode prev = null;
 		Stack<TreeNode> stack = new Stack<>();
+		TreeNode last = null;
+		TreeNode cur = root;
 		
-		while (c != null || !stack.isEmpty()) {
-			while (c != null) {
-				stack.push(c);
-				c = c.left;
+		while (cur != null || !stack.isEmpty()) {
+			while (cur != null) {
+				stack.push(cur);
+				cur = cur.left;
 			}
-			
-			c = stack.pop();
-			
-			if (prev != null && prev.val >= c.val) {
+			cur = stack.pop();
+			if (last != null && last.val >= cur.val) {
 				return false;
 			}
-			prev = c;
-			c = c.right;
+			last = cur;
+			cur = cur.right;
 		}
-		
-		
 		return true;
 	}
 	/*

@@ -17,7 +17,7 @@ public class SortTest {
 
 	@Test
 	public void quickSortTest() {
-		Integer[] arr = new Integer[] { 1, 12, 5, 26, 7, 14, 3, 7, 2, 12, 5, 26, 7, 14, 3, 7, 2  };
+		Integer[] arr = new Integer[] { 5,9,4  };
 		new QuickSort<Integer>().sort(arr);
 		assertTrue(sorted(arr));
 	}
