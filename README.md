@@ -49,6 +49,9 @@ https://leetcode.com/problems/maximum-subarray/
 # N Queen
 https://www.geeksforgeeks.org/java-program-for-n-queen-problem-backtracking-3/
 
+# Sort Time Complexity
+https://en.wikipedia.org/wiki/Sorting_algorithm#:~:text=log%20n)2.-,Comparison%20sorts%5Bedit%5D,-Below%20is%20a
+
 # Read - Write
 
 ```java
