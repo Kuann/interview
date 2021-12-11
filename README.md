@@ -4,6 +4,18 @@ https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 # Array:
 https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html
 
+# Array List:
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+
+# Queue:
+https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
+
+# Priority Queue
+https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
+
+# LinkedList 
+https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
+
 # Collections
 https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html
 
@@ -58,4 +70,34 @@ public static void main(String[] args) throws FileNotFoundException {
         pw.close();
         scanner.close();
     }
+```
+
+# Array Sort
+``` java
+import static java.util.Comparator.comparing;
+
+// sort
+list.sort(naturalOrder());
+
+// sort (reversed)
+list.sort(reverseOrder());
+
+// sort by field
+list.sort(comparing(Type::getField));
+
+// sort by field (reversed)
+list.sort(comparing(Type::getField).reversed());
+
+// sort by int field
+list.sort(comparingInt(Type::getIntField));
+
+// sort by double field (reversed)
+list.sort(comparingDouble(Type::getDoubleField).reversed());
+
+// sort by nullable field (nulls last)
+list.sort(comparing(Type::getNullableField, nullsLast(naturalOrder())));
+
+// two-level sort
+list.sort(comparing(Type::getField1).thenComparing(Type::getField2));
+
 ```
