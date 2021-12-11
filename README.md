@@ -25,6 +25,15 @@ https://leetcode.com/problems/lru-cache/
 # LFU cache
 https://leetcode.com/problems/lfu-cache/discuss/1606715/Simple-java-approach
 
+# Number of Islands
+https://leetcode.com/submissions/detail/237750107/
+
+# Max contigoues subarray - DP
+https://leetcode.com/problems/maximum-subarray/
+
+# N Queen
+https://www.geeksforgeeks.org/java-program-for-n-queen-problem-backtracking-3/
+
 # Read - Write
 
 ```java
