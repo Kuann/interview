@@ -55,7 +55,10 @@ https://en.wikipedia.org/wiki/Sorting_algorithm#:~:text=log%20n)2.-,Comparison%2
 # Read - Write
 
 ```java
-public static void main(String[] args) throws FileNotFoundException {
+import java.util.*;
+import java.io.*;
+public static void main(String[] args) throws FileNotFoundException { 
+        //System.getenv(String) 
         File finput = new File("/Users/nguyenan/Documents/IO-files/in.txt");
         File foutput = new File("/Users/nguyenan/Documents/IO-files/out.txt");
         Scanner scanner = new Scanner(finput);
