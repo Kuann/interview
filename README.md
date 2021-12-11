@@ -28,6 +28,9 @@ https://leetcode.com/submissions/detail/235826659/
 # Binary search
 https://leetcode.com/problems/binary-search/
 
+# Binary Heap
+https://www.edureka.co/blog/binary-heap-in-java/
+
 # Quicksort
 https://leetcode.com/submissions/detail/470569532/
 
