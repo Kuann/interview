@@ -1,7 +1,7 @@
 
 # Networking
 ### TCP process
-To establish a TCP connection, client and server have to make a 3-way hanshake process
+To establish a TCP connection, client and server have to make a 3-way handshake process
 1. Client send a package with SYN (synchronize) signal to server. Seq: x
 2. Server send a package with ACK(y) signal and SYN signal(y).
 3. Client send a package with ACK(y + 1) signal
