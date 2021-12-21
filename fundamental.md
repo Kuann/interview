@@ -55,7 +55,7 @@ Certificate authority (CA) is an entity that issues certificates.
 - With VM, Users can allocate bigger size of memory than the available size of RAM.
 - At a time, part of the data might be stored in disk. They will be loaded into RAM on demand.
 - Advantages:
-	- Run more applications that consum more memory once.
+	- Run more applications that consume more memory once.
 	- Fragmentation: Each application has it's own continuos space in VM. In RAM, Data does not have to be continuos.
 	- Data security: Application could not access memory address of others because they have differrent mappings.
 ### Page
