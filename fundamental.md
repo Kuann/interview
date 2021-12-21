@@ -33,6 +33,7 @@ Certificate authority (CA) is an entity that issues certificates.
 |  TCP|UDP  |
 |--|--|
 |Reliable  | No |
+|Connection-Oriented  | Connectionless |
 |Maintain connection  | No |
 |Grarantee the delivery of a package to the dst  | No |
 |Has seq to know the order of packages  | No |
@@ -55,7 +56,7 @@ Certificate authority (CA) is an entity that issues certificates.
 - At a time, part of the data might be stored in disk. They will be loaded into RAM on demand.
 - Advantages:
 	- Run more applications that consum more memory once.
-	- Fragmentation: Each application has it's own continuos space. In RAM, Data does not have to be continuos.
+	- Fragmentation: Each application has it's own continuos space in VM. In RAM, Data does not have to be continuos.
 	- Data security: Application could not access memory address of others because they have differrent mappings.
 ### Page
 - VM and RAM are devided into pages. 
