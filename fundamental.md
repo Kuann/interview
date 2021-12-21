@@ -8,7 +8,7 @@ To establish a TCP connection, client and server have to make a 3-way handshake 
 3. (Optional) Client can also send SYN(x + 2) to transfer data.
 
 To stop a TCP connection
-1. Client send a package with FIN(x) signal to finsih a connection.
+1. Client send a package with FIN(x) signal to finish the connection.
 2. Server send a package with ACK(x + 1) signal and FIN(y) signal to client.
 3. Client send a package with ACK(y + 1) to the server.
 
