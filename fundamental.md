@@ -17,7 +17,7 @@ Scr port, Dst port, flags(SYB, ACK, FIN), SYN sequence, ACK sequence, checksum.
 Data
 
 ### HTTPS
-- HTTPS mean HTTP over SSL.
+- HTTPS means HTTP over SSL.
 - It relies on TLS/SSL to be secure.
 - HTTP is a data communication protocal at application layer for webs.
 ### HTTPS process
@@ -50,7 +50,7 @@ Certificate authority (CA) is an entity that issues certificates.
 - Threads in a same process can share memory and resources. So communication between threads in a same process is easier.
 - Processes can communicate via sockets, files.
 ### Virtual memory
-- VM is a technique that provide users an illusion of having a very big main memory. This is done by using a part of secondary memory (like disks) as the main memory.
+- VM is a technique that provide users an illusion of having a very big main memory. This is done by using part of secondary memory (like disks) as the main memory.
 - With VM, Users can allocate bigger size of memory than the available size of RAM.
 - At a time, part of the data might be stored in disk. They will be loaded into RAM on demand.
 - Advantages:
