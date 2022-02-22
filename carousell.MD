@@ -45,7 +45,7 @@ I tried to convince them but I could not. At that time I think the team was scar
 And he said both solution were good and have pros and cons but let choose the one the team familiar with.
 
 - Once I finished a feature and send PR to my teammates. There was a developer who kept asking me to change my code. 
-But I thought it was not necessary to change it. I expained to him why I ended up with the solution but he did not agree. 
+But I thought it was not necessary to change it. I explained to him why I ended up with the solution but he did not agree. 
 I felt uncomfortable because of a long discussion for a very small point. Then I bring the problem to the team. Both solution were good and the author could decide to keep the current one of change.
 In the retrospective, we re-opened the point and discuss what should we do If we face the situation again. And we agree that we should not make long discussion in PR because It might create tension.
 If 2 developer can not make the aggrement, the team will decide what to do.
@@ -56,6 +56,18 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 - I will continue to develop myself to become an expert in this industry.
 - I continue working as a software engineer in the next 3-4 years. 
 - After that, I would like to become teachnical lead or architect who can make important decision to the product.
+
+### Questions to Engineer Manager
+- Do you apply Scrum?
+- How long does a sprint last
+- How do distribute the tasks to developer?
+- How many people in the team? Do you have tester, frontend developer in the team?
+- How team fronend and team backend communicate when there is a bug?
+
+### Questions to Director
+- Do you intend to build full-stack team?
+- What can you support the team?
+- 
 
 
 EM
