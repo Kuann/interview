@@ -57,6 +57,22 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 - I continue working as a software engineer in the next 3-4 years. 
 - After that, I would like to become teachnical lead or architect who can make important decision to the product.
 
+### What I - Agile Developer do
+- Understand users needs: communicate with product owner, stackholders and even users if necessary to clarify requirements.
+- Take responsibility to estimate, planning, manage tasks and report progress.
+- Teamwork: collaborate teammates and other team to develop the product, share knowlegde and responsibility.
+- Software quality: responsible to deliver product on time with good quality. Support and fix bugs.
+
+### Agile developer characteristics:
+- Ability to work in a cross-functional team, other teams and customers.
+- Be as responsive as possible.
+- Work closely with customers and understand what they need.
+- Support them as much as possible.
+- Flexibility: do whatever to get things done.
+- Improve the product every day.
+- Do not stop learning
+- Team spirit, trust the team, respect, professional.
+
 ### Questions to Engineer Manager
 - Do you apply Scrum?
 - How long does a sprint last
@@ -67,7 +83,12 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 ### Questions to Director
 - Do you intend to build full-stack team?
 - What can you support the team?
+
+### Questions to PO
+- How much time do you spend for the development team?
 - 
+
+ 
 
 
 EM
