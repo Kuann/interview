@@ -69,6 +69,8 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 - Work closely with customers and understand what they need.
 - Support them as much as possible.
 - Flexibility: do whatever to get things done.
+- Proactive: think about the future issues.
+- Responsibility.
 - Improve the product every day.
 - Do not stop learning
 - Team spirit, trust the team, respect, professional.
@@ -85,11 +87,10 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 - What can you support the team?
 
 ### Questions to PO
+- How do you support the team?
 - How much time do you spend for the development team?
-- 
-
- 
-
+- What features are you planning to do for this year?
+- Where do you get the requirements?
 
 EM
 1. Technical Leadership/Influence
