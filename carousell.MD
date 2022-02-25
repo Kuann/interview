@@ -54,8 +54,7 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 ### What is your plan in the next 3-5 years?
 
 - I will continue to develop myself to become an expert in this industry.
-- I continue working as a software engineer in the next 3-4 years. 
-- After that, I would like to become teachnical lead or architect who can make important decision to the product.
+- I can work as a software engineer, technical lead or architect whatever I can make important decisions for the technology of the product.
 
 ### What I - Agile Developer do
 - Understand users needs: communicate with product owner, stackholders and even users if necessary to clarify requirements.
@@ -91,6 +90,12 @@ If 2 developer can not make the aggrement, the team will decide what to do.
 - How much time do you spend for the development team?
 - What features are you planning to do for this year?
 - Where do you get the requirements?
+
+### Questions to Co-Founder
+- Who are Carousell's competitors?
+- What is the vision of Carousell?
+- What do you expect when interviewing a software engineer?
+- Will the company continue working from home?
 
 EM
 1. Technical Leadership/Influence
