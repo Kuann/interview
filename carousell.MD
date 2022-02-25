@@ -1,8 +1,12 @@
 My name is An. Nguyen Hoai An. I'm currently living in Ho Chi Minh City Viet Nam.
 
-Overall, I have 5 years of experience in this industry.
-I am currently working at Global Fashion Group as a senior software engineer in the seller center service team.
-In the previous company, I used to be a software engineer and a technical architect.
+Overall, I have 5 years of experience in software developement.
+
+In 1st company Axon Active, I used to be a software engineer and a technical architect. We develop a platform about management and marketing for small and medium enterprises in CH.
+
+
+Currently, I am working at Global Fashion Group as a senior software engineer.
+We develop the seller center application which is used by sellers to sell products in our e-commerce sites such as zalora or the iconic.
 
 I'm skilled in backend development, distributed systems, microservices, Cloud.
 I'm also familiar with modern software development methods like Scrum.
